@@ -1,0 +1,23 @@
+*.env
+# Ignore build outputs
+dist/
+build/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+
+# Ignore specific file types
+*.min.js
+*.bundle.js
+
+# Ignore all files in a specific folder
+static/
+
+# Ignore generated files
+coverage/
